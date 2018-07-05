@@ -9,7 +9,11 @@ function Bird(){
         ellipse(this.x, this.y, 32, 32);
     }
     this.update = function(){
+        //velocity increases from gravity
+        //the longer the fall, the faster the velocity
         this.velocity += this.gravity
+
+        //update y value so that our object is together with velocity
         this.y += this.velocity
 
         //for air resistance, to slow down the drop
@@ -27,6 +31,5 @@ function Bird(){
 
     this.up = function(){
         this.velocity += this.lift
-        console.log('velocity: ' + this.velocity)
     }
 }
