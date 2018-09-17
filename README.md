@@ -1,1 +1,3 @@
-# this is a flappy bird game
+# Play the game here:
+
+http://danielnmai.com/flappy-bird/
