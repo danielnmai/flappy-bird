@@ -1,3 +1,3 @@
 # Play the game here:
 
-http://danielnmai.com/flappy-bird/
+https://danielmai.com/flappy-bird/
